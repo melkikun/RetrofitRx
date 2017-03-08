@@ -10,6 +10,9 @@ import android.widget.Toast;
 import com.example.it01.retrofitrx.activity.ListDrawing;
 import com.example.it01.retrofitrx.api.ApiRest;
 import com.example.it01.retrofitrx.api.Intro;
+import com.example.it01.retrofitrx.presenter.MdPresenter;
+import com.example.it01.retrofitrx.service.MdService;
+import com.example.it01.retrofitrx.service.impl.MdServiceImpl;
 
 import org.w3c.dom.Text;
 
@@ -28,28 +31,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        Intro intro = ApiRest.retrofit().create(Intro.class);
-        Observable<String> hay = intro.hallo();
-        hay.subscribeOn(Schedulers.newThread())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(new Subscriber<String>() {
-                    @Override
-                    public void onCompleted() {
-
-                    }
-
-                    @Override
-                    public void onError(Throwable e) {
-                        Log.d("error", e.getMessage());
-                    }
-
-                    @Override
-                    public void onNext(String s) {
-                        textView.setText(s);
-                        Toast.makeText(getApplicationContext(), s, Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(getApplicationContext(), ListDrawing.class);
-                        startActivity(intent);
-                    }
-                });
+        MdPresenter mdPresenter = new MdPresenter();
+        textView.setText(mdPresenter.getMessage());
     }
+
+
 }
