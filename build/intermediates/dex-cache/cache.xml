@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.android\build-cache\0349b183c4eb921691132ded36c7e55f975f4522\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="30a4938ea5235ccf532b3e9f04200e68547e36ad">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\classes_37d0657fa3c6f8291126b13c34d5cb1e870393b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.2.0\41e67dba73c3347e4503761642c39d0e06ca1f2\retrofit-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="041e67dba73c3347e4503761642c39d0e06ca1f2">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\retrofit-2.2.0_5ccfce7a81f3cba93368fdd053f63569bf23d8ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d98005ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\reactive-streams-1.0.0_d921b0577a5297d70493fe72a110b84c29b92bd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.android\build-cache\ee73f3f1d42184c1b51ebb23f63f7d6d1ad62145\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\classes_6f256727a2ea090e473664a455075028aa712661.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava2\2.2.0\3ee0e527143abbe130ddba4c1fa6c4be5d66ed5c\adapter-rxjava2-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3ee0e527143abbe130ddba4c1fa6c4be5d66ed5c">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\adapter-rxjava2-2.2.0_f3fcd81a4954db317b8736e13ecd352bffca5de8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.android\build-cache\8ceffed7d70e749a752da631147e7b42f9148d86\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\classes_63e25711686c7db7291d96919de8a699bfb59ab7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.0.0\5151c737c01616c372c3d00ab145868ede10e826\rxjava-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5151c737c01616c372c3d00ab145868ede10e826">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\rxjava-2.0.0_c6b8c22412868f811541187f67751801bdb8d363.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.android\build-cache\61037a3828d7211a2fbde1a488281be0cc4462b6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\classes_0cf453265b495d10ecd7fad2d7cc23f280f4e7b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.android\build-cache\f88c93124e52a1442c6604ffec0c8291a7283d97\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\classes_ae9f0a4bd8ca8ef0b96dfb33fb65cf5c7d51bf94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.android\build-cache\109caee341c7c412a2dd214395746a4f1efe0404\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\classes_67b8c66198268243f3db8c91e21b56c4667214d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.android\build-cache\4d443063caa47df7da4fba0544aef546a065cd5d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\classes_0193b03f362ea8847ac84e9ce1bab3d7833f98ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.android\build-cache\604480a2316da752a4eecdfbbe192ce313900707\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\classes_758ba4f747d15374a9c1a28e3bb56c99be4827e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.android\build-cache\e88e7eea60637b2b383138cf1831c1ec89e56232\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\classes_a8a9d2c3e35efd0b2caede33a850cb50d5eb44cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.android\build-cache\d9c313ff50148ea8c7c584e843f9fdf35501ba9e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\classes_e18673456d0ad70b46077de9f930dac79a77e78a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\support-annotations-25.2.0_851998b98063e867461bed33214d7c24be79de39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.android\build-cache\455ba10ad5430b9e574e0ea210be3ddea7371e65\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\classes_c765a87d7001f3adb11688813f839118fa8e66c8.jar" />
+    </item>
+
+</items>
