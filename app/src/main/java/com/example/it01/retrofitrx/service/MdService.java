@@ -7,5 +7,5 @@ import rx.Observable;
  */
 
 public interface MdService {
-    public Observable listDrawing();
+    public void listDrawing();
 }

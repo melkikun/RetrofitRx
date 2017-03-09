@@ -19,11 +19,33 @@ import rx.schedulers.Schedulers;
  */
 
 public class MdServiceImpl implements MdService{
+    private MdPresenter mdPresenter;
+
+    public MdServiceImpl(MdPresenter mdPresenter) {
+        this.mdPresenter = mdPresenter;
+    }
 
     @Override
-    public Observable listDrawing() {
+    public void listDrawing() {
         ApiDrawing apiDrawing = ApiRest.retrofit().create(ApiDrawing.class);
-        Observable <List<MasterDrawing>> listObservable = apiDrawing.md();
-        return listObservable;
+        Observable<List<MasterDrawing>> listObservable = apiDrawing.md();
+        listObservable.subscribeOn(Schedulers.newThread())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new Subscriber<List<MasterDrawing>>() {
+                    @Override
+                    public void onCompleted() {
+
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+
+                    }
+
+                    @Override
+                    public void onNext(List<MasterDrawing> masterDrawings) {
+                        mdPresenter.printList(masterDrawings);
+                    }
+                });
     }
 }
