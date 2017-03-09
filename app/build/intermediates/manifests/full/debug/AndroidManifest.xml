@@ -8,6 +8,8 @@
         android:minSdkVersion="16"
         android:targetSdkVersion="25" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,6 +25,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.it01.retrofitrx.activity.ListDrawing" />
+        <activity android:name="com.example.it01.retrofitrx.activity.DetailDrawing" />
+        <activity android:name="com.example.it01.retrofitrx.activity.ToolbarActivity" />
     </application>
 
 </manifest>

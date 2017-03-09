@@ -12,24 +12,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\IT01\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.2.0\41e67dba73c3347e4503761642c39d0e06ca1f2\retrofit-2.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="041e67dba73c3347e4503761642c39d0e06ca1f2">
-        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\retrofit-2.2.0_5ccfce7a81f3cba93368fdd053f63569bf23d8ae.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\IT01\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d98005ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
-        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\reactive-streams-1.0.0_d921b0577a5297d70493fe72a110b84c29b92bd5.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\IT01\.android\build-cache\ee73f3f1d42184c1b51ebb23f63f7d6d1ad62145\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -39,30 +21,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\IT01\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava2\2.2.0\3ee0e527143abbe130ddba4c1fa6c4be5d66ed5c\adapter-rxjava2-2.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3ee0e527143abbe130ddba4c1fa6c4be5d66ed5c">
-        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\adapter-rxjava2-2.2.0_f3fcd81a4954db317b8736e13ecd352bffca5de8.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\IT01\.android\build-cache\8ceffed7d70e749a752da631147e7b42f9148d86\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
         <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\classes_63e25711686c7db7291d96919de8a699bfb59ab7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\IT01\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.0.0\5151c737c01616c372c3d00ab145868ede10e826\rxjava-2.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5151c737c01616c372c3d00ab145868ede10e826">
-        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\rxjava-2.0.0_c6b8c22412868f811541187f67751801bdb8d363.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,12 +66,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\IT01\.android\build-cache\49ebc5cbfffb579df3aa54311315d42fd9e87be9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\classes_a493416a8358de07bc5c254512b0df9db1c35839.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\IT01\.android\build-cache\604480a2316da752a4eecdfbbe192ce313900707\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
         <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\classes_758ba4f747d15374a9c1a28e3bb56c99be4827e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\IT01\.android\build-cache\0c440d3831cdaf812b5612add86258c13a7069a4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="D:\Coding\RetrofitRx\app\build\intermediates\pre-dexed\debug\classes_5f8098e726f7fd4016b14eeef8678a378649714e.jar" />
     </item>
     <item
         is-multidex="false"

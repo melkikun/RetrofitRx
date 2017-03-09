@@ -22,7 +22,7 @@ public class ApiRest {
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(builder.build())
-                .baseUrl("http://192.168.56.1/vue/hallo.php/")
+                .baseUrl("http://192.168.100.195:7777/webservice/")
                 .build();
         return api;
     }

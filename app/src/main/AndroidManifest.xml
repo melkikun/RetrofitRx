@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.it01.retrofitrx">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,7 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.ListDrawing"></activity>
+        <activity android:name=".activity.ListDrawing" />
+        <activity android:name=".activity.DetailDrawing" />
+        <activity android:name=".activity.ToolbarActivity"></activity>
     </application>
 
 </manifest>

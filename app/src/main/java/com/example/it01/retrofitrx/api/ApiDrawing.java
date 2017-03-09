@@ -5,6 +5,7 @@ import com.example.it01.retrofitrx.entities.MasterDrawing;
 import java.util.List;
 
 import retrofit2.http.GET;
+import rx.Observable;
 import rx.Observer;
 
 /**
@@ -13,5 +14,5 @@ import rx.Observer;
 
 public interface ApiDrawing {
     @GET("data/master-drawing")
-    Observer<List<MasterDrawing>> md();
+    Observable<List<MasterDrawing>> md();
 }

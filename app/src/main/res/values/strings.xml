@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RetrofitRx</string>
+    <string name="app_btn_drawing">List Drawing</string>
+    <string name="title_activity_atollbar">Atollbar</string>
 </resources>

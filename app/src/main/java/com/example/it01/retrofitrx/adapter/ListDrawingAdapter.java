@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.it01.retrofitrx.R;
+import com.example.it01.retrofitrx.entities.MasterDrawing;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,11 +18,11 @@ import java.util.List;
  */
 
 public class ListDrawingAdapter extends RecyclerView.Adapter<ListDrawingAdapter.ViewHolder>{
-    private List <String> headMark = new ArrayList<>();
+    private List <MasterDrawing> md = new ArrayList<>();
     private Context context;
 
-    public ListDrawingAdapter(List<String> headMark, Context context) {
-        this.headMark = headMark;
+    public ListDrawingAdapter(List<MasterDrawing> headMark, Context context) {
+        this.md = headMark;
         this.context = context;
     }
 
@@ -33,19 +34,25 @@ public class ListDrawingAdapter extends RecyclerView.Adapter<ListDrawingAdapter.
 
     @Override
     public void onBindViewHolder(ListDrawingAdapter.ViewHolder holder, int position) {
-        holder.hm.setText(headMark.get(position));
+        holder.hm.setText(this.md.get(position).getHeadMark());
+        holder.comp_type.setText(this.md.get(position).getCompType());
+        holder.profile.setText(this.md.get(position).getProfile());
     }
 
     @Override
     public int getItemCount() {
-        return this.headMark.size();
+        return this.md.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         public TextView hm;
+        public TextView profile;
+        public TextView comp_type;
         public ViewHolder(View itemView) {
             super(itemView);
             hm = (TextView) itemView.findViewById(R.id.hm);
+            profile = (TextView) itemView.findViewById(R.id.profile);
+            comp_type = (TextView) itemView.findViewById(R.id.comp_type);
         }
     }
 }
