@@ -1,5 +1,7 @@
 package com.example.it01.retrofitrx.service.impl;
 
+import android.util.Log;
+
 import com.example.it01.retrofitrx.api.ApiDrawing;
 import com.example.it01.retrofitrx.api.ApiRest;
 import com.example.it01.retrofitrx.api.Intro;
@@ -20,6 +22,7 @@ import rx.schedulers.Schedulers;
 
 public class MdServiceImpl implements MdService{
     private MdPresenter mdPresenter;
+//    private
 
     public MdServiceImpl(MdPresenter mdPresenter) {
         this.mdPresenter = mdPresenter;
@@ -44,7 +47,32 @@ public class MdServiceImpl implements MdService{
 
                     @Override
                     public void onNext(List<MasterDrawing> masterDrawings) {
+                        Log.d("asu", "asas");
                         mdPresenter.printList(masterDrawings);
+                    }
+                });
+    }
+
+    @Override
+    public void detailDrawing(int id) {
+        ApiDrawing apiDrawing = ApiRest.retrofit().create(ApiDrawing.class);
+        Observable<MasterDrawing> drawingObservable = apiDrawing.detailMd(id);
+        drawingObservable.subscribeOn(Schedulers.newThread())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new Subscriber<MasterDrawing>() {
+                    @Override
+                    public void onCompleted() {
+
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+
+                    }
+
+                    @Override
+                    public void onNext(MasterDrawing masterDrawing) {
+                       mdPresenter.detailDrawing(masterDrawing);
                     }
                 });
     }

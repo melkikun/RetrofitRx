@@ -20,7 +20,10 @@
         </activity>
         <activity android:name=".activity.ListDrawing" />
         <activity android:name=".activity.DetailDrawing" />
-        <activity android:name=".activity.ToolbarActivity"></activity>
+        <activity android:name=".activity.ToolbarActivity" />
+        <activity android:name=".activity.Fr" />
+        <activity android:name=".fragment.fragment1" />
+        <activity android:name=".fragment.fragment2"></activity>
     </application>
 
 </manifest>

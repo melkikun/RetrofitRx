@@ -27,6 +27,9 @@
         <activity android:name="com.example.it01.retrofitrx.activity.ListDrawing" />
         <activity android:name="com.example.it01.retrofitrx.activity.DetailDrawing" />
         <activity android:name="com.example.it01.retrofitrx.activity.ToolbarActivity" />
+        <activity android:name="com.example.it01.retrofitrx.activity.Fr" />
+        <activity android:name="com.example.it01.retrofitrx.fragment.fragment1" />
+        <activity android:name="com.example.it01.retrofitrx.fragment.fragment2" />
     </application>
 
 </manifest>

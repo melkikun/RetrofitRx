@@ -87,6 +87,9 @@ public class MasterDrawing {
     @Expose
     private String inputType;
 
+    public MasterDrawing() {
+    }
+
     public MasterDrawing(String headMark, String entryDate, String compType, String weight, String surface, String profile, String projectName, String length, String totalQty, String subcontStatus, String dwgStatus, String rev, String distributionCount, Object revSubj, String grWeight, String dwgTyp, Object entrySign, Object compTypeLvl2, String ppicCheck, Object ppicCheckSign, String ppicCheckId, Object remark, String typeBld, String masterDrawingId, Object addRemark, String inputType) {
         this.headMark = headMark;
         this.entryDate = entryDate;

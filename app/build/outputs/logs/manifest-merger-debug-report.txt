@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:7:5-24:19
+ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:7:5-27:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\IT01\.android\build-cache\593706b399e15a574261d78e507f638802fb4c36\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\IT01\.android\build-cache\0349b183c4eb921691132ded36c7e55f975f4522\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:25.2.0] C:\Users\IT01\.android\build-cache\49ebc5cbfffb579df3aa54311315d42fd9e87be9\output\AndroidManifest.xml:25:5-20
@@ -67,9 +67,21 @@ ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:22:9-60
 	android:name
 		ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:22:19-57
 activity#com.example.it01.retrofitrx.activity.ToolbarActivity
-ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:23:9-71
+ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:23:9-62
 	android:name
 		ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:23:19-59
+activity#com.example.it01.retrofitrx.activity.Fr
+ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:24:9-49
+	android:name
+		ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:24:19-46
+activity#com.example.it01.retrofitrx.fragment.fragment1
+ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:25:9-56
+	android:name
+		ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:25:19-53
+activity#com.example.it01.retrofitrx.fragment.fragment2
+ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:26:9-65
+	android:name
+		ADDED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml:26:19-53
 uses-sdk
 INJECTED from D:\Coding\RetrofitRx\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\IT01\.android\build-cache\593706b399e15a574261d78e507f638802fb4c36\output\AndroidManifest.xml:5:5-7:41

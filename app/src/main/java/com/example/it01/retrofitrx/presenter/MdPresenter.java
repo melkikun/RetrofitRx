@@ -10,4 +10,6 @@ import java.util.List;
 
 public interface MdPresenter {
    public void printList(List<MasterDrawing> masterDrawings);
+
+   public void detailDrawing(MasterDrawing masterDrawing);
 }

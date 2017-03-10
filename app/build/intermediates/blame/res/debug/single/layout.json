@@ -8,6 +8,10 @@
         "source": "C:\\Users\\IT01\\.android\\build-cache\\604480a2316da752a4eecdfbbe192ce313900707\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
+        "merged": "D:\\Coding\\RetrofitRx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fragment1.xml",
+        "source": "D:\\Coding\\RetrofitRx\\app\\src\\main\\res\\layout\\activity_fragment1.xml"
+    },
+    {
         "merged": "D:\\Coding\\RetrofitRx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\Users\\IT01\\.android\\build-cache\\49ebc5cbfffb579df3aa54311315d42fd9e87be9\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
@@ -34,6 +38,10 @@
     {
         "merged": "D:\\Coding\\RetrofitRx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
         "source": "C:\\Users\\IT01\\.android\\build-cache\\49ebc5cbfffb579df3aa54311315d42fd9e87be9\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "D:\\Coding\\RetrofitRx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_drawing.xml",
+        "source": "D:\\Coding\\RetrofitRx\\app\\src\\main\\res\\layout\\detail_drawing.xml"
     },
     {
         "merged": "D:\\Coding\\RetrofitRx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -128,6 +136,10 @@
         "source": "C:\\Users\\IT01\\.android\\build-cache\\49ebc5cbfffb579df3aa54311315d42fd9e87be9\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
+        "merged": "D:\\Coding\\RetrofitRx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fragment2.xml",
+        "source": "D:\\Coding\\RetrofitRx\\app\\src\\main\\res\\layout\\activity_fragment2.xml"
+    },
+    {
         "merged": "D:\\Coding\\RetrofitRx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\IT01\\.android\\build-cache\\604480a2316da752a4eecdfbbe192ce313900707\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
@@ -170,6 +182,10 @@
     {
         "merged": "D:\\Coding\\RetrofitRx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "C:\\Users\\IT01\\.android\\build-cache\\49ebc5cbfffb579df3aa54311315d42fd9e87be9\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "D:\\Coding\\RetrofitRx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fr.xml",
+        "source": "D:\\Coding\\RetrofitRx\\app\\src\\main\\res\\layout\\activity_fr.xml"
     },
     {
         "merged": "D:\\Coding\\RetrofitRx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",

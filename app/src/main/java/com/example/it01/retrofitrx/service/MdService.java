@@ -8,4 +8,6 @@ import rx.Observable;
 
 public interface MdService {
     public void listDrawing();
+
+    public void detailDrawing(int id);
 }

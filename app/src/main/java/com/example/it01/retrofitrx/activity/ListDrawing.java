@@ -44,6 +44,7 @@ public class ListDrawing extends ToolbarActivity implements MdPresenter {
 
     @Override
     public void printList(final List<MasterDrawing> masterDrawings) {
+        Log.d("message", "1233");
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
@@ -53,7 +54,9 @@ public class ListDrawing extends ToolbarActivity implements MdPresenter {
         recyclerView.addOnItemTouchListener(new RecycleListener(getApplicationContext(), recyclerView, new RecycleListener.Xxx() {
             @Override
             public void onClick(View view, int position) {
-                Toast.makeText(getApplicationContext(), masterDrawings.get(position).getHeadMark().toString(), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(), DetailDrawing.class);
+                intent.putExtra("id", masterDrawings.get(position).getMasterDrawingId());
+                startActivity(intent);
             }
 
             @Override
@@ -61,5 +64,10 @@ public class ListDrawing extends ToolbarActivity implements MdPresenter {
 
             }
         }));
+    }
+
+    @Override
+    public void detailDrawing(MasterDrawing masterDrawing) {
+
     }
 }
